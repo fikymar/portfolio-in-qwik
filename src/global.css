@@ -1,0 +1,141 @@
+/**
+ * WHAT IS THIS FILE?
+ *
+ * Globally applied styles. No matter which components are in the page or matching route,
+ * the styles in here will be applied to the Document, without any sort of CSS scoping.
+ *
+ */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+	--qwik-dark-blue: #006ce9;
+	--qwik-light-blue: #18b6f6;
+	--qwik-light-purple: #ac7ff4;
+	--qwik-dark-purple: #713fc2;
+	--zinc-700: #3f3f46;
+	--amber-300: #fcd34d;
+	--text: #fffbeb;
+	--bg-zinc-100: #f4f4f4;
+}
+
+body {
+	background-color: var(--bg-zinc-100);
+	font-family: "Comic Neue", cursive;
+	padding: 20px 20px 40px 20px;
+	scroll-behavior: smooth;
+}
+
+h2 {
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+a {
+	--s: 1px; /* the thickness of the line */
+	--c: #e8464e; /* the color */
+
+	color: #0000;
+	padding-bottom: var(--s);
+	background: linear-gradient(90deg, var(--c) 50%, #000 0)
+			calc(100% - var(--_p, 0%)) / 200% 100%,
+		linear-gradient(var(--c) 0 0) 0% 100% / var(--_p, 0%) var(--s) no-repeat;
+	-webkit-background-clip: text, padding-box;
+	background-clip: text, padding-box;
+	transition: 1s;
+}
+
+a:hover {
+	--_p: 100%;
+}
+
+section {
+	padding: 20px;
+	scroll-margin-top: 80px;
+}
+
+h2:before {
+	content: "->";
+	position: absolute;
+	top: -1em;
+	font-family: "Over the Rainbow", cursive;
+}
+
+h2 {
+	position: relative;
+}
+
+ul {
+	list-style-type: square;
+	margin: 5px 0 30px 0;
+	padding-left: 25px;
+}
+
+li {
+	padding: 8px 0;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+footer {
+	padding: 15px;
+	text-align: center;
+	font-size: 0.8em;
+}
+
+footer a {
+	text-decoration: none;
+}
+
+footer a:hover {
+	text-decoration: underline;
+}
+
+a.mindblow {
+	margin: 0 auto;
+	display: block;
+	background: var(--qwik-dark-purple);
+	padding: 10px 20px;
+	border-radius: 10px;
+	border: 0;
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+	width: fit-content;
+	border-bottom: 4px solid black;
+	cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🤯</text></svg>")
+			16 0,
+		auto; /*!emojicursor.app*/
+}
+
+a.mindblow:hover {
+	border-bottom-width: 0px;
+	margin-bottom: 4px;
+	transform: translateY(4px);
+}
+
+.cursor {
+	/* background-color: #e8464e; */
+	background-color: #fefefe;
+	width: 3rem;
+	height: 3rem;
+	position: fixed;
+	z-index: 0;
+
+	border-radius: 62% 66% 33% 32% / 65% 66% 63% 14%;
+	pointer-events: none;
+	mix-blend-mode: difference;
+	margin-top: -1.5rem;
+	margin-left: -1.5rem;
+	animation: change 5s ease infinite alternate;
+}
+
+@keyframes change {
+	50% {
+		border-radius: 70% 30% 30% 70% / 60% 40% 60% 40%;
+	}
+}
