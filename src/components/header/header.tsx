@@ -1,17 +1,11 @@
 import { component$, useStylesScoped$, useStore } from "@builder.io/qwik";
-import { QwikLogo } from "../icons/qwik";
+
 import { ChangeLocale } from "./change-locale";
-import {
-	changeLocale,
-	$translate as t,
-	useSpeakContext,
-	Speak,
-} from "qwik-speak";
+import { $translate as t, Speak } from "qwik-speak";
 import styles from "./header.css?inline";
 
 export const Header = component$(() => {
 	useStylesScoped$(styles);
-	const ctx = useSpeakContext();
 	const store = useStore({ scrolled: false });
 
 	const menuLinks = [

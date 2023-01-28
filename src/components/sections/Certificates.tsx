@@ -1,5 +1,5 @@
 import { component$ } from "@builder.io/qwik";
-import { $translate as t, Speak } from "qwik-speak";
+import { Speak } from "qwik-speak";
 
 export const Certificates = component$(() => {
 	return (

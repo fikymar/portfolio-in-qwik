@@ -1,5 +1,5 @@
 import { component$, useStylesScoped$ } from "@builder.io/qwik";
-import { changeLocale, $translate as t, useSpeakContext } from "qwik-speak";
+import { changeLocale, useSpeakContext } from "qwik-speak";
 import { LocaleCode } from "~/constants/enums";
 import styles from "./header.css?inline";
 
