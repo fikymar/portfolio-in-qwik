@@ -1,5 +1,8 @@
 {
 	"home": {
-		"about": "About"
+		"about": "About",
+		"aboutDesc": "Frontend developer with 1 year experience in web application development",
+		"tools": "I work with these technologies on a daily basis",
+		"toolsTried": "I had a pleasure to try also these"
 	}
 }

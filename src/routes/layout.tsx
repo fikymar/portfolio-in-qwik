@@ -5,6 +5,7 @@ import Header from "../components/header/header";
 
 export default component$(() => {
 	const store = useStore({ pageX: 0, pageY: 0 });
+
 	useClientEffect$(() => {
 		window.addEventListener("mousemove", (e) => {
 			store.pageX = e.pageX;
@@ -21,11 +22,6 @@ export default component$(() => {
 						<Slot />
 					</section>
 				</main>
-				<footer>
-					<a href="https://github.com/fikymar" target="_blank" class="">
-						Created by FikyMar 2023
-					</a>
-				</footer>
 			</div>
 			<div
 				class="cursor"

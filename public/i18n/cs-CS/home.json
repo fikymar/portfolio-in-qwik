@@ -1,5 +1,8 @@
 {
 	"home": {
-		"about": "O mně"
+		"about": "O mně",
+		"aboutDesc": "Frontend developer s 1 rokem praxe s vývojem webových aplikací",
+		"tools": "S tímto arzenálem pracuju",
+		"toolsTried": "Setkala jsem se z rychlíku taky s"
 	}
 }

@@ -9,9 +9,9 @@ export const Header = component$(() => {
 	const store = useStore({ scrolled: false });
 
 	const menuLinks = [
-		{ title: t("home.about@@about"), link: "#about" },
-		{ title: "Portfolio", link: "#portfolio" },
-		{ title: "Certificates", link: "#certificates" },
+		{ title: t("home.about@@about"), link: "/" },
+		{ title: "Portfolio", link: "/portfolio" },
+		{ title: "Certificates", link: "/certificates" },
 	];
 	return (
 		<header
