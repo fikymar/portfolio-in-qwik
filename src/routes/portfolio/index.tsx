@@ -1,6 +1,6 @@
 import { component$ } from "@builder.io/qwik";
 import type { DocumentHead } from "@builder.io/qwik-city";
-import { Speak, $translate as t } from "qwik-speak";
+import { Speak } from "qwik-speak";
 import { Card } from "~/components/card";
 
 export const projects = [
@@ -102,7 +102,7 @@ export const Portfolio = component$(() => {
 					<Card
 						title={project.title}
 						img={project.img}
-						desc={t(`app.${project.desc}`)}
+						desc={project.desc}
 						link={project.link}
 						techs={project.techs}
 						img2={project.img2}
