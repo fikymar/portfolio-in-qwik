@@ -36,7 +36,7 @@ export const Card = component$((props: IProject) => {
 								New
 							</span> */}
 							<div class=" text-gray-600  text-xs font-semibold tracking-wider">
-								{t(`app.${desc}`)}
+								{t(`home.${desc}`)}
 							</div>
 						</div>
 
@@ -80,7 +80,7 @@ export const Card = component$((props: IProject) => {
 
 export default component$(() => {
 	return (
-		<Speak assets={["app"]}>
+		<Speak assets={["home"]}>
 			<Card />
 		</Speak>
 	);

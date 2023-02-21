@@ -1,6 +1,6 @@
 import { component$ } from "@builder.io/qwik";
 import type { DocumentHead } from "@builder.io/qwik-city";
-import { Speak } from "qwik-speak";
+import { Speak, $translate as t } from "qwik-speak";
 import { Card } from "~/components/card";
 
 export const projects = [
@@ -117,7 +117,7 @@ export const Portfolio = component$(() => {
 
 export default component$(() => {
 	return (
-		<Speak assets={["app"]}>
+		<Speak assets={["home"]}>
 			<Portfolio />
 		</Speak>
 	);
