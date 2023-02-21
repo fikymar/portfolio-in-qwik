@@ -21,6 +21,7 @@ export const projects = [
 	{
 		title: "This portfolio",
 		link: "https://fikymar.netlify.app/",
+		code: "https://github.com/fikymar/portfolio-in-qwik",
 		img: "/imgs/portfolio1.webp",
 		desc: "portfolioDesc",
 		techs: ["Qwik", "Typescript", "Qwik Speak"],
@@ -96,7 +97,7 @@ export const Portfolio = component$(() => {
 	return (
 		<section id="portfolio" class="mb-[300px] mt-24">
 			<h2 class=" text-xl mt-10">Portfolio</h2>
-			<div class="flex gap-40 flex-wrap">
+			<div class="flex gap-40 flex-wrap justify-center">
 				{projects.map((project) => (
 					<Card
 						title={project.title}
