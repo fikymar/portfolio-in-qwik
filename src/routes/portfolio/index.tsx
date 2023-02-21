@@ -102,7 +102,7 @@ export const Portfolio = component$(() => {
 					<Card
 						title={project.title}
 						img={project.img}
-						desc={t(`app.${project.desc}`)}
+						desc={project.desc}
 						link={project.link}
 						techs={project.techs}
 						img2={project.img2}
