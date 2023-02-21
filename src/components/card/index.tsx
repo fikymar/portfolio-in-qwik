@@ -36,7 +36,7 @@ export const Card = component$((props: IProject) => {
 								New
 							</span> */}
 							<div class=" text-gray-600  text-xs font-semibold tracking-wider">
-								{t(`home.${desc}`)}
+								{t("home." + desc)}
 							</div>
 						</div>
 

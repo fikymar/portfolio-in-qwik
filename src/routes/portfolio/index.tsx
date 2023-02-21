@@ -1,6 +1,6 @@
 import { component$ } from "@builder.io/qwik";
 import type { DocumentHead } from "@builder.io/qwik-city";
-import { Speak } from "qwik-speak";
+import { Speak, $translate as t } from "qwik-speak";
 import { Card } from "~/components/card";
 
 export const projects = [
@@ -96,7 +96,7 @@ export const projects = [
 export const Portfolio = component$(() => {
 	return (
 		<section id="portfolio" class="mb-[300px] mt-24">
-			<h2 class=" text-xl mt-10">Portfolio</h2>
+			<h2 class=" text-xl mt-10">{t("home.portfolio")}</h2>
 			<div class="flex gap-40 flex-wrap justify-center">
 				{projects.map((project) => (
 					<Card
