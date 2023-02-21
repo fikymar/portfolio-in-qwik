@@ -117,7 +117,7 @@ export const Portfolio = component$(() => {
 
 export default component$(() => {
 	return (
-		<Speak assets={["home"]}>
+		<Speak assets={["app"]}>
 			<Portfolio />
 		</Speak>
 	);
