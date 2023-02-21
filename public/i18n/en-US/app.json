@@ -1,6 +1,12 @@
 {
-  "app": {
-    "changeLocale": "Change locale",
-    "title": "{{name}} demo"
-  }
+	"app": {
+		"changeLocale": "Change locale",
+		"title": "{{name}} demo",
+		"loonoyDesc": "Eshop with smart cradles",
+		"zacniucitDesc": "Website for aspiring teachers",
+		"portfolioDesc": "Simple portfolio in Qwik",
+		"shopiikDesc": "Eshop for practice",
+		"chytraDesc": "Investment in real estate offer",
+		"studywiseDesc": "Marketplace with language courses"
+	}
 }
