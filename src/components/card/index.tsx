@@ -1,5 +1,5 @@
 import { component$ } from "@builder.io/qwik";
-import { $translate as t, Speak } from "qwik-speak";
+import { Speak } from "qwik-speak";
 
 interface IProject {
 	title: string;
@@ -32,11 +32,8 @@ export const Card = component$((props: IProject) => {
 				<div class="relative px-4 -mt-16  ">
 					<div class="bg-white p-6 rounded-lg shadow-lg absolute top-0 left-[5%] z-30 w-[90%]">
 						<div class="flex items-baseline">
-							{/* <span class="bg-teal-200 text-teal-800 text-xs px-2 inline-block rounded-full  uppercase font-semibold tracking-wide">
-								New
-							</span> */}
 							<div class=" text-gray-600  text-xs font-semibold tracking-wider">
-								{t(`home.${desc}`)}
+								{desc}
 							</div>
 						</div>
 
