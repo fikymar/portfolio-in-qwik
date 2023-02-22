@@ -5,6 +5,7 @@ module.exports = {
 		extend: {
 			headerBlack: "#212529",
 			buttonBlack: "#202020",
+			redLink: "#e8464e",
 		},
 	},
 	plugins: [],

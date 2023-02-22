@@ -17,6 +17,8 @@ export const projects = [
 			"Framer motion",
 		],
 		img2: "/imgs/loonoy2.png",
+		descCZ: "Eshop s chytrými kolébkami",
+		descEN: "Eshop with smart cradles",
 	},
 	{
 		title: "This portfolio",
@@ -26,6 +28,8 @@ export const projects = [
 		desc: "portfolioDesc",
 		techs: ["Qwik", "Typescript", "Qwik Speak"],
 		img2: "/imgs/portfolio2.webp",
+		descCZ: "Jednoduché portfolio v Qwik",
+		descEN: "Simple portfolio in Qwik",
 	},
 	{
 		title: "Shopiik",
@@ -34,6 +38,8 @@ export const projects = [
 		img2: "/imgs/shopiik2.png",
 		code: "https://github.com/fikymar/eshop",
 		desc: "shopiikDesc",
+		descCZ: "Cvičný eshop",
+		descEN: "Training project - eshop",
 		techs: [
 			"Next",
 			"Redux",
@@ -68,6 +74,8 @@ export const projects = [
 		img2: "/imgs/chytra2.png",
 		desc: "chytraDesc",
 		techs: ["Next", "Scss"],
+		descCZ: "Investice do nemovitostí",
+		descEN: "Investment in real estate offer",
 	},
 	{
 		title: "Začni učit",
@@ -76,6 +84,8 @@ export const projects = [
 		img2: "/imgs/zacniucit2.png",
 		desc: "zacniucitDesc",
 		techs: ["Next", "Styled Components", "Typescript"],
+		descCZ: "Web s rozcestníkem pro začínající učitele",
+		descEN: "Website for aspiring teachers",
 	},
 	{
 		title: "Studywise",
@@ -90,19 +100,22 @@ export const projects = [
 			"Next-translate",
 			"Stripe",
 		],
+		descCZ: "Tržiště s živými jazykovými kurzy",
+		descEN: "Marketplace with language courses",
 	},
 ];
 
 export const Portfolio = component$(() => {
 	return (
 		<section id="portfolio" class="mb-[300px] mt-24">
-			<h2 class=" text-xl mt-10">{t("home.portfolio")}</h2>
-			<div class="flex gap-40 flex-wrap justify-center">
+			<h2 class="text-xl mt-10">{t("home.portfolio")}</h2>
+			<div class="flex gap-y-56 gap-x-40 flex-wrap justify-center">
 				{projects.map((project) => (
 					<Card
 						title={project.title}
 						img={project.img}
-						desc={t("home." + project.desc)}
+						descCZ={project.descCZ}
+						descEN={project.descEN}
 						link={project.link}
 						techs={project.techs}
 						img2={project.img2}

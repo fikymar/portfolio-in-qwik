@@ -31,7 +31,7 @@ export const About = component$(() => {
 			<h1 class="text-3xl">Marcela Fikrlová</h1>
 			<p class="text-base">{t("home.aboutDesc")}</p>
 			<h3 class="">{t("home.tools")}</h3>
-			<div class="flex gap-3 flex-wrap">
+			<div class="flex gap-3 flex-wrap justify-center ">
 				{logos.map(({ src, title }) => (
 					<div class="group max-w-[3rem]" key={title}>
 						<img
@@ -44,7 +44,7 @@ export const About = component$(() => {
 				))}
 			</div>
 			<h3 class="">{t("home.toolsTried")}</h3>
-			<div class="flex gap-3 flex-wrap">
+			<div class="flex gap-3 flex-wrap justify-center">
 				{triedLogos.map(({ src, title }) => (
 					<div class="group max-w-[3rem]" key={title}>
 						<img
@@ -58,7 +58,7 @@ export const About = component$(() => {
 			</div>
 			<img
 				src="/imgs/ai2.webp"
-				class="fixed left-0 bottom-0 w-20 md:w-40 hover:w-auto transition"
+				class="fixed left-0 bottom-0 w-20 md:w-40 hover:w-56 transition-all"
 			/>
 		</section>
 	);
