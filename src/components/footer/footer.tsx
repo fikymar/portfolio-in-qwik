@@ -10,21 +10,21 @@ export const Footer = component$(() => {
 
 			<a href="https://github.com/fikymar" target="_blank" class="">
 				<img
-					src="imgs/logos/github.svg"
+					src="/imgs/logos/github.svg"
 					alt="github"
 					class="w-8 h-8 blackBlob  group-hover:scale-110 transition"
 				/>
 			</a>
 			<a href="https://www.linkedin.com/in/fikymar/" target="_blank" class="">
 				<img
-					src="imgs/svg/linkedin.svg"
+					src="/imgs/svg/linkedin.svg"
 					alt="linkedin"
 					class="w-8 h-8 blackBlob group-hover:scale-110 transition"
 				/>
 			</a>
 			<a href="mailto:marcela.jaklova@gmail.com">
 				<img
-					src="imgs/svg/mailIcon.svg"
+					src="/imgs/svg/mailIcon.svg"
 					alt="mail"
 					class="w-8 h-8 blackBlob group-hover:scale-110 transition"
 				/>
