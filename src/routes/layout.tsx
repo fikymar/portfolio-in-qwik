@@ -1,5 +1,6 @@
 import { component$, Slot } from "@builder.io/qwik";
 import type { RequestHandler } from "@builder.io/qwik-city";
+import Footer from "~/components/footer/footer";
 import { config } from "~/speak-config";
 import Header from "../components/header/header";
 
@@ -21,34 +22,7 @@ export default component$(() => {
 					<section>
 						<Slot />
 					</section>
-					<footer class="border-t border-t-black w-full text-center pt-4 flex items-center justify-center gap-2 md:gap-4">
-						<a
-							href="https://github.com/fikymar"
-							target="_blank"
-							class="headerLink"
-						>
-							Created by FikyMar 2023
-						</a>
-
-						<a href="https://github.com/fikymar" target="_blank" class="">
-							<img
-								src="imgs/logos/github.svg"
-								alt="github"
-								class="w-8 h-8 blackBlob  group-hover:scale-110 transition"
-							/>
-						</a>
-						<a
-							href="https://www.linkedin.com/in/fikymar/"
-							target="_blank"
-							class=""
-						>
-							<img
-								src="imgs/svg/linkedin.svg"
-								alt="linkedin"
-								class="w-8 h-8 blackBlob group-hover:scale-110 transition"
-							/>
-						</a>
-					</footer>
+					<Footer />
 				</main>
 			</div>
 			{/* <div

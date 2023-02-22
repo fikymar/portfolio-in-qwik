@@ -20,7 +20,7 @@ export default component$(() => {
 });
 
 export const head: DocumentHead = {
-	title: "FikyMar | Home",
+	title: "FikyMar | About",
 	meta: [
 		{
 			name: "description",

@@ -33,7 +33,7 @@ export const Header = component$(() => {
 		>
 			<div class="logo"></div>
 			<ChangeLocale />
-			<ul class="uppercase">
+			<ul class="uppercase font-sans">
 				{menuLinks.map((link) => (
 					<li class="mr-4 pb-1 ">
 						<a

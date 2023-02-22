@@ -39,7 +39,7 @@ export const Card = component$((props: IProject) => {
 							</div>
 						</div>
 
-						<h4 class="mt-1 text-xl font-semibold uppercase leading-tight truncate">
+						<h4 class="mt-1 text-xl font-semibold uppercase leading-tight truncate font-sans">
 							{title}
 						</h4>
 						<div class="gap-2 mt-4 flex">
@@ -72,7 +72,7 @@ export const Card = component$((props: IProject) => {
 							</a>
 						</div>
 
-						<ul class="list-none list-inside my-2 flex-wrap gap-2 hidden group-hover:flex">
+						<ul class="list-none list-inside my-2 flex-wrap gap-2 hidden group-hover:flex font-sans">
 							{props.techs.map((tech) => (
 								<li class="">{tech} |</li>
 							))}

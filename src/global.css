@@ -23,7 +23,7 @@
 
 body {
 	background-color: var(--bg-zinc-100);
-	font-family: "Comic Neue", cursive;
+	font-family: "Shantell Sans", cursive;
 	padding: 20px 20px 40px 20px;
 	scroll-behavior: smooth;
 }
