@@ -39,7 +39,9 @@ export const About = component$(() => {
 							alt={title}
 							class="w-10 h-10 blackBlob group-hover:scale-110 transition"
 						/>
-						<span class="invisible group-hover:visible text-sm">{title}</span>
+						<span class="invisible group-hover:visible text-sm font-sans">
+							{title}
+						</span>
 					</div>
 				))}
 			</div>
@@ -52,7 +54,9 @@ export const About = component$(() => {
 							alt={title}
 							class="w-10 h-10 blackBlob group-hover:scale-110 transition"
 						/>
-						<span class="invisible group-hover:visible text-sm">{title}</span>
+						<span class="invisible group-hover:visible text-sm font-sans">
+							{title}
+						</span>
 					</div>
 				))}
 			</div>
