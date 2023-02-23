@@ -1,5 +1,6 @@
 import { component$, Slot } from "@builder.io/qwik";
 import type { RequestHandler } from "@builder.io/qwik-city";
+// import Aside from "~/components/aside/aside";
 import Footer from "~/components/footer/footer";
 import { config } from "~/speak-config";
 import Header from "../components/header/header";
@@ -22,6 +23,7 @@ export default component$(() => {
 					<section>
 						<Slot />
 					</section>
+					{/* <Aside /> */}
 					<Footer />
 				</main>
 			</div>
