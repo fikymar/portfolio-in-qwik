@@ -27,7 +27,7 @@ export const triedLogos = [
 
 export const About = component$(() => {
 	return (
-		<section class="h-[88vh] overflow-hidden mt-10 grid place-items-center text-center">
+		<section class="h-[88vh] overflow-hidden mt-14 grid place-items-center text-center">
 			<h1 class="text-3xl">Marcela Fikrlová</h1>
 			<p class="text-base">{t("home.aboutDesc")}</p>
 			<h3 class="">{t("home.tools")}</h3>

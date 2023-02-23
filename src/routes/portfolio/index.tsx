@@ -7,7 +7,7 @@ export const projects = [
 	{
 		title: "Loonoy",
 		link: "https://www.loonoy.com/",
-		img: "/imgs/loonoy.png",
+		img: "/imgs/loonoy.webp",
 		desc: "loonoyDesc",
 		techs: [
 			"Next",
@@ -16,7 +16,7 @@ export const projects = [
 			"Typescript",
 			"Framer motion",
 		],
-		img2: "/imgs/loonoy2.png",
+		img2: "/imgs/loonoy2.webp",
 		descCZ: "Eshop s chytrými kolébkami",
 		descEN: "Eshop with smart cradles",
 	},
@@ -34,7 +34,7 @@ export const projects = [
 	{
 		title: "Shopiik",
 		link: "https://shopiik.netlify.app/",
-		img: "/imgs/shopiik1.png",
+		img: "/imgs/shopiik1.webp",
 		img2: "/imgs/shopiik2.png",
 		code: "https://github.com/fikymar/eshop",
 		desc: "shopiikDesc",
@@ -70,8 +70,8 @@ export const projects = [
 	{
 		title: "Chytrá nemovitost",
 		link: "https://chytranemovitost.cz/",
-		img: "/imgs/chytra1.png",
-		img2: "/imgs/chytra2.png",
+		img: "/imgs/chytra1.webp",
+		img2: "/imgs/chytra2.webp",
 		desc: "chytraDesc",
 		techs: ["Next", "Scss"],
 		descCZ: "Investice do nemovitostí",
