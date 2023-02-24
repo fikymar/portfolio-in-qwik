@@ -22,6 +22,7 @@ export const triedLogos = [
 	{ src: "imgs/logos/vue.svg", title: "Vue" },
 	{ src: "imgs/logos/xd.svg", title: "Xd" },
 	{ src: "imgs/logos/react.svg", title: "React native" },
+	{ src: "/favicon.svg", title: "Qwik" },
 	// { src: "imgs/pixlr.webp", title: "Pixlr" },
 ];
 
