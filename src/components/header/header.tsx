@@ -8,8 +8,8 @@ export const Header = component$(() => {
 	const store = useStore({ scrolled: false });
 
 	const menuLinks = [
-		{ title: t("home.about@@about"), link: "/" },
-		{ title: "Portfolio", link: "/portfolio" },
+		{ title: t("home.about@@about"), link: "/#about" },
+		{ title: "Portfolio", link: "/#portfolio" },
 		{
 			title: "CV",
 			link: "/MarcelaFikrlovaCV.pdf",

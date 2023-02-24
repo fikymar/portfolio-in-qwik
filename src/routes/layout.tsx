@@ -4,6 +4,7 @@ import type { RequestHandler } from "@builder.io/qwik-city";
 import Footer from "~/components/footer/footer";
 import { config } from "~/speak-config";
 import Header from "../components/header/header";
+import Aside from "~/components/aside/aside";
 
 export default component$(() => {
 	// const store = useStore({ pageX: 0, pageY: 0 });
@@ -23,7 +24,7 @@ export default component$(() => {
 					<section>
 						<Slot />
 					</section>
-					{/* <Aside /> */}
+					<Aside />
 					<Footer />
 				</main>
 			</div>
