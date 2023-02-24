@@ -27,7 +27,10 @@ export const triedLogos = [
 
 export const About = component$(() => {
 	return (
-		<section class="h-[88vh] overflow-hidden mt-14 grid place-items-center text-center">
+		<section
+			id="about"
+			class="mt-28 scroll-mt-28 flex flex-col items-center gap-20 justify-center text-center"
+		>
 			<h1 class="text-3xl">Marcela Fikrlová</h1>
 			<p class="text-base">{t("home.aboutDesc")}</p>
 			<h3 class="">{t("home.tools")}</h3>
@@ -62,7 +65,7 @@ export const About = component$(() => {
 			</div>
 			<img
 				src="/imgs/ai2.webp"
-				class="fixed left-0 bottom-0 w-20 md:w-40 hover:w-56 transition-all"
+				class="fixed left-0 bottom-0 w-20 md:w-40 md:hover:w-56 transition-all z-[60]"
 			/>
 		</section>
 	);

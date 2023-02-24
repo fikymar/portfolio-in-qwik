@@ -8,14 +8,14 @@ export const Footer = component$(() => {
 				Created by FikyMar 2023
 			</a>
 
-			<a href="https://github.com/fikymar" target="_blank" class="">
+			<a href="https://github.com/fikymar" target="_blank">
 				<img
 					src="/imgs/logos/github.svg"
 					alt="github"
 					class="w-8 h-8 blackBlob  group-hover:scale-110 transition"
 				/>
 			</a>
-			<a href="https://www.linkedin.com/in/fikymar/" target="_blank" class="">
+			<a href="https://www.linkedin.com/in/fikymar/" target="_blank">
 				<img
 					src="/imgs/svg/linkedin.svg"
 					alt="linkedin"
