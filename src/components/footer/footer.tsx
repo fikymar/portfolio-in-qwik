@@ -3,7 +3,7 @@ import { Speak } from "qwik-speak";
 
 export const Footer = component$(() => {
 	return (
-		<footer class="border-t border-t-black w-full text-center pt-4 flex items-center justify-center gap-2 md:gap-4">
+		<footer class="border-t border-t-black w-full text-center pt-4 flex items-center flex-wrap justify-center gap-2 md:gap-4">
 			<a href="https://github.com/fikymar" target="_blank" class="headerLink">
 				Created by FikyMar 2023
 			</a>
@@ -26,6 +26,13 @@ export const Footer = component$(() => {
 				<img
 					src="/imgs/svg/mailIcon.svg"
 					alt="mail"
+					class="w-8 h-8 blackBlob group-hover:scale-110 transition"
+				/>
+			</a>
+			<a href="tel:+420739567245">
+				<img
+					src="/imgs/svg/phoneIcon.svg"
+					alt="github"
 					class="w-8 h-8 blackBlob group-hover:scale-110 transition"
 				/>
 			</a>

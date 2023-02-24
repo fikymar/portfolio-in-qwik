@@ -29,6 +29,13 @@ export const Side = component$(() => {
 					class="w-8 h-8 blackBlob group-hover:scale-110 "
 				/>
 			</a>
+			<a href="tel:+420739567245">
+				<img
+					src="/imgs/svg/phoneIcon.svg"
+					alt="github"
+					class="w-8 h-8 blackBlob group-hover:scale-110 "
+				/>
+			</a>
 		</aside>
 	);
 });
