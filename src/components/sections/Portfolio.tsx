@@ -1,5 +1,4 @@
 import { component$ } from "@builder.io/qwik";
-import type { DocumentHead } from "@builder.io/qwik-city";
 import { Speak, $translate as t } from "qwik-speak";
 import { Card } from "~/components/card";
 
@@ -135,7 +134,3 @@ export default component$(() => {
 		</Speak>
 	);
 });
-
-export const head: DocumentHead = {
-	title: "FikyMar | Portfolio",
-};

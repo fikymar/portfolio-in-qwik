@@ -24,6 +24,9 @@ export default component$(() => {
 			<QwikCityProvider>
 				<head>
 					<meta charSet="utf-8" />
+					<title>FikyMar | Portfolio</title>
+					<meta name="title" content="Marcela Fikrlová" />
+					<meta name="description" content="Frontend developer" />
 					<link rel="manifest" href="/manifest.json" />
 					<link rel="preconnect" href="https://fonts.googleapis.com" />
 					<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />

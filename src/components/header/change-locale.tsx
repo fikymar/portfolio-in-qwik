@@ -7,8 +7,6 @@ export const ChangeLocale = component$(() => {
 	const ctx = useSpeakContext();
 	useStylesScoped$(styles);
 
-	console.log(ctx.config);
-
 	return (
 		<div>
 			{ctx.config.supportedLocales.map((locale) => (
