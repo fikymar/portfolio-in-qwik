@@ -39,9 +39,7 @@ export const Card = component$((props: IProject) => {
 							</div>
 						</div>
 
-						<h4 class="mt-1 text-xl font-semibold uppercase leading-tight truncate font-sans">
-							{title}
-						</h4>
+						<h4 class="mt-1 text-xl   truncate ">{title}</h4>
 						<div class="gap-2 mt-4 flex">
 							{code ? (
 								<a href={code} target="_blank" class="mr-2">

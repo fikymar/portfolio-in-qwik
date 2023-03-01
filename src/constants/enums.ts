@@ -1,4 +1,4 @@
 export enum LocaleCode {
-	CS = "CS",
+	CS = "CZ",
 	EN_US = "EN",
 }

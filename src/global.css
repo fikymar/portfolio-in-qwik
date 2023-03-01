@@ -33,9 +33,10 @@ html {
 }
 
 h2,
-h1 {
-	font-weight: 700;
+h1,
+h4 {
 	text-transform: uppercase;
+	font-family: "Montserrat", sans-serif;
 }
 
 .headerLink {

@@ -2,10 +2,14 @@ import { component$, useStylesScoped$, useStore } from "@builder.io/qwik";
 import { ChangeLocale } from "./change-locale";
 import { $translate as t, Speak } from "qwik-speak";
 import styles from "./header.css?inline";
+import { useSpeakContext } from "qwik-speak";
 
 export const Header = component$(() => {
 	useStylesScoped$(styles);
 	const store = useStore({ scrolled: false });
+	const ctx = useSpeakContext();
+
+	console.log(ctx.locale);
 
 	const menuLinks = [
 		{ title: t("home.about@@about"), link: "/#about" },

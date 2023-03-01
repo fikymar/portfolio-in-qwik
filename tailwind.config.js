@@ -8,6 +8,9 @@ module.exports = {
 				buttonBlack: "#202020",
 				redLink: "#e8464e",
 			},
+			fontFamily: {
+				sans: "Montserrat, sans-serif",
+			},
 		},
 	},
 	plugins: [],

@@ -32,33 +32,33 @@ export const About = component$(() => {
 			id="about"
 			class="mt-28 scroll-mt-28 flex flex-col items-center gap-20 justify-center text-center"
 		>
-			<h1 class="text-3xl">Marcela Fikrlová</h1>
-			<p class="text-base">{t("home.aboutDesc")}</p>
-			<h3 class="">{t("home.tools")}</h3>
+			<h1 class="text-3xl font-medium">Marcela Fikrlová</h1>
+			<p class="text-base font-light">{t("home.aboutDesc")}</p>
+			<p class="font-light">{t("home.tools")}</p>
 			<div class="flex gap-3 flex-wrap justify-center ">
 				{logos.map(({ src, title }) => (
-					<div class="group max-w-[3rem]" key={title}>
+					<div class="group max-w-[3rem] " key={title}>
 						<img
 							src={src}
 							alt={title}
 							class="w-10 h-10 blackBlob group-hover:scale-110 transition"
 						/>
-						<span class="invisible group-hover:visible text-sm font-sans">
+						<span class="invisible text-xs group-hover:visible font-sans">
 							{title}
 						</span>
 					</div>
 				))}
 			</div>
-			<h3 class="">{t("home.toolsTried")}</h3>
+			<p class="font-light">{t("home.toolsTried")}</p>
 			<div class="flex gap-3 flex-wrap justify-center">
 				{triedLogos.map(({ src, title }) => (
-					<div class="group max-w-[3rem]" key={title}>
+					<div class="group max-w-[3rem] h-auto" key={title}>
 						<img
 							src={src}
 							alt={title}
 							class="w-10 h-10 blackBlob group-hover:scale-110 transition"
 						/>
-						<span class="invisible group-hover:visible text-sm font-sans">
+						<span class="invisible group-hover:visible text-xs font-sans">
 							{title}
 						</span>
 					</div>
