@@ -11,7 +11,7 @@ export const ChangeLocale = component$(() => {
 		<div>
 			{ctx.config.supportedLocales.map((locale) => (
 				<button
-					class={`localebtn text-black border border-black text-xs  p-2  rounded-full mx-1 my-2 font-sans transition ${
+					class={`localebtn  border border-pink-300 text-xs  p-2  rounded-full mx-1 my-2 font-sans transition ${
 						ctx.locale.lang === locale.lang && "text-redLink font-medium"
 					}`}
 					onClick$={async () => await changeLocale(locale, ctx)}

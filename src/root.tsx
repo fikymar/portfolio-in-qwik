@@ -34,7 +34,7 @@ export default component$(() => {
 					<link rel="preconnect" href="https://fonts.googleapis.com" />
 					<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 					<link
-						href="https://fonts.googleapis.com/css2?family=Labrada:wght@400;700&family=Montserrat:wght@400;500;700&family=Shantell+Sans:wght@300;400;500;700&display=swap"
+						href="https://fonts.googleapis.com/css2?family=Bangers&family=Bebas+Neue&family=Montserrat:wght@300;400;500&display=swap"
 						rel="stylesheet"
 					/>
 					<RouterHead />

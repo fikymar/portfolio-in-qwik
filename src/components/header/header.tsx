@@ -21,7 +21,7 @@ export const Header = component$(() => {
 	return (
 		<header
 			class={`py-4 px-4 z-50 fixed top-0 left-0 w-full transition duration-500 backdrop-blur border-b flex items-center  ${
-				store.scrolled ? " border-b-black " : "border-b-transparent"
+				store.scrolled ? " border-b-pink-300 " : "border-b-transparent"
 			}`}
 			document:onScroll$={() => {
 				if (window.scrollY > 0) {
@@ -39,7 +39,7 @@ export const Header = component$(() => {
 						<a
 							href={link.link}
 							download={link.download}
-							class="headerLink flex hover:text-redLink"
+							class="headerLink flex hover:text-pink-500"
 						>
 							{link.title}
 							{link.img ? (

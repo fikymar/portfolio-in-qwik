@@ -18,7 +18,7 @@ export default component$(() => {
 
 	return (
 		<>
-			<div class="bg-zinc-100 text-black">
+			<div class=" ">
 				<main>
 					<Header />
 					<section>

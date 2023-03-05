@@ -19,13 +19,16 @@
 	--amber-300: #fcd34d;
 	--text: #fffbeb;
 	--bg-zinc-100: #f4f4f4;
+	--darkBlue: #1f2937;
+	--pink: rgb(249 168 212);
 }
 
 body {
-	background-color: var(--bg-zinc-100);
-	font-family: "Shantell Sans", cursive;
+	background-color: var(--darkBlue);
+	font-family: "Montserrat";
 	padding: 20px 20px 40px 20px;
 	scroll-behavior: smooth;
+	color: var(--pink);
 }
 
 html {
@@ -36,14 +39,15 @@ h2,
 h1,
 h4 {
 	text-transform: uppercase;
-	font-family: "Montserrat", sans-serif;
+
+	font-family: "Bebas Neue", cursive;
 }
 
 .headerLink {
 	--s: 1px; /* the thickness of the line */
-	--c: #e8464e; /* the color */
+	--c: rgb(249 168 212); /* the color */
 
-	color: #0000;
+	color: rgba(249 168 212 0.5);
 	padding-bottom: var(--s);
 	background: linear-gradient(90deg, var(--c) 50%, #000 0)
 			calc(100% - var(--_p, 0%)) / 200% 100%,
@@ -121,9 +125,12 @@ a.mindblow:hover {
 	}
 }
 
+.blackBlob {
+	padding: 4px;
+	border-radius: 50%;
+}
+
 .blackBlob:hover {
 	background-color: #fefefe;
 	mix-blend-mode: difference;
-	padding: 4px;
-	border-radius: 50%;
 }
