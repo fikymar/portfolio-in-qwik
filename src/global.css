@@ -23,7 +23,7 @@
 
 body {
 	background-color: var(--bg-zinc-100);
-	font-family: "Shantell Sans", cursive;
+	font-family: "Montserrat", sans-serif;
 	padding: 20px 20px 40px 20px;
 	scroll-behavior: smooth;
 }
@@ -35,8 +35,7 @@ html {
 h2,
 h1,
 h4 {
-	text-transform: uppercase;
-	font-family: "Montserrat", sans-serif;
+	font-family: "Bebas Neue", cursive;
 }
 
 .headerLink {
@@ -121,9 +120,20 @@ a.mindblow:hover {
 	}
 }
 
+.blackBlob {
+	border-radius: 50%;
+}
+
 .blackBlob:hover {
 	background-color: #fefefe;
 	mix-blend-mode: difference;
 	padding: 4px;
+}
+
+.redIcon {
 	border-radius: 50%;
+}
+
+.redIcon:hover {
+	background-color: rgba(232, 70, 78, 0.5);
 }

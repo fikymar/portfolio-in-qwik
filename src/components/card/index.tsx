@@ -61,7 +61,7 @@ export const Card = component$((props: IProject) => {
 									<img
 										src="/imgs/svg/liveIcon.svg"
 										alt={link}
-										class="h-5 w-5 blackBlob"
+										class="h-5 w-5 blackBlob "
 									/>
 									<p class="invisible group-hover:visible text-redLink transition ">
 										live

@@ -35,7 +35,7 @@ export const Header = component$(() => {
 			<ChangeLocale />
 			<ul class="uppercase font-sans">
 				{menuLinks.map((link) => (
-					<li class="mr-4 pb-1 ">
+					<li class="mr-4 pb-1 group">
 						<a
 							href={link.link}
 							download={link.download}
@@ -46,7 +46,7 @@ export const Header = component$(() => {
 								<img
 									src={link.img}
 									alt="download CV"
-									class="h-5 w-5 blackBlob"
+									class="ml-1 h-5 w-5 group-hover:p-0.5 rounded-full bg-opacity-50 group-hover:bg-redLink transition duration-500"
 								/>
 							) : null}
 						</a>

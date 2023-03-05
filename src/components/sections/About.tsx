@@ -66,7 +66,7 @@ export const About = component$(() => {
 			</div>
 			<img
 				src="/imgs/ai2.webp"
-				class="fixed left-0 bottom-0 w-20 md:w-40 md:hover:w-56 transition-all z-[60]"
+				class="fixed left-0 bottom-0 w-20 md:w-40  transition-all z-[60]"
 			/>
 		</section>
 	);
