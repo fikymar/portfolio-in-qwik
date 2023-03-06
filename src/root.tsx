@@ -25,11 +25,9 @@ export default component$(() => {
 				<head>
 					<meta charSet="utf-8" />
 					<title>FikyMar | Portfolio</title>
-					<meta name="title" content="Marcela Fikrlová" />
-					<meta name="description" content="Frontend developer" />
 					<meta name="og:title" content="Marcela Fikrlová" />
 					<meta name="og:description" content="Frontend developer" />
-					<meta property="og:image" content="/imgs/og.jpg" />
+					<meta property="og:image" content="/og.jpg" />
 					<link rel="manifest" href="/manifest.json" />
 					<link rel="preconnect" href="https://fonts.googleapis.com" />
 					<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
