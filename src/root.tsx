@@ -25,6 +25,7 @@ export default component$(() => {
 				<head>
 					<meta charSet="utf-8" />
 					<title>FikyMar | Portfolio</title>
+					<RouterHead />
 					<meta name="og:title" content="Marcela Fikrlová" />
 					<meta name="og:description" content="Frontend developer" />
 					<meta property="og:image" content="/og.jpg" />
@@ -35,7 +36,6 @@ export default component$(() => {
 						href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@300;400;500&display=swap"
 						rel="stylesheet"
 					/>
-					<RouterHead />
 				</head>
 				<body lang="en">
 					<RouterOutlet />
