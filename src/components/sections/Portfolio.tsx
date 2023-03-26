@@ -50,6 +50,17 @@ export const projects = [
 			"Typescript",
 		],
 	},
+	{
+		title: "CRUD Blog app",
+		link: "https://testblogapp.netlify.app/",
+		img: "/imgs/blog2.webp",
+		img2: "/imgs/blog.webp",
+		code: "https://github.com/fikymar/blogapp-interview-task",
+		desc: "blogDesc",
+		descCZ: "CRUD cvičná aplikace ve Vue",
+		descEN: "CRUD training project in Vue",
+		techs: ["Vue", "Vue router", "Pinia", "Tailwind"],
+	},
 	// {
 	// 	title: "Visap",
 	// 	link: "https://www.visap.cz/",

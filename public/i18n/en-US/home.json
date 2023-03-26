@@ -10,6 +10,7 @@
 		"portfolioDesc": "Simple portfolio in Qwik",
 		"shopiikDesc": "Eshop for practice",
 		"chytraDesc": "Investment in real estate offer",
-		"studywiseDesc": "Marketplace with language courses"
+		"studywiseDesc": "Marketplace with language courses",
+		"blogDesc": "CRUD training project in Vue"
 	}
 }

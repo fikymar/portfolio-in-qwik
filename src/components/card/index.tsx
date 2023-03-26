@@ -39,7 +39,7 @@ export const Card = component$((props: IProject) => {
 							</div>
 						</div>
 
-						<h4 class="mt-1 text-xl   truncate ">{title}</h4>
+						<h4 class="mt-1 text-xl truncate">{title}</h4>
 						<div class="gap-2 mt-4 flex">
 							{code ? (
 								<a href={code} target="_blank" class="mr-2">
@@ -61,7 +61,7 @@ export const Card = component$((props: IProject) => {
 									<img
 										src="/imgs/svg/liveIcon.svg"
 										alt={link}
-										class="h-5 w-5 blackBlob "
+										class="h-5 w-5 blackBlob"
 									/>
 									<p class="invisible group-hover:visible text-redLink transition ">
 										live

@@ -10,6 +10,7 @@
 		"portfolioDesc": "Jednoduché portfolio v Qwik",
 		"shopiikDesc": "Cvičný eshop",
 		"chytraDesc": "Investice do nemovitostí",
-		"studywiseDesc": "Tržiště s živými jazykovými kurzy"
+		"studywiseDesc": "Tržiště s živými jazykovými kurzy",
+		"blogDesc": "CRUD cvičná aplikace ve Vue"
 	}
 }
