@@ -17,7 +17,7 @@ export const Card = component$((props: IProject) => {
 	const locale = useSpeakLocale();
 
 	return (
-		<article class="group wrapper antialiased text-gray-900 w-80">
+		<article class="group wrapper antialiased text-gray-900 w-80 snap-start">
 			<div>
 				<div class="relative w-80 h-80">
 					<img

@@ -117,9 +117,9 @@ export const projects = [
 
 export const Portfolio = component$(() => {
 	return (
-		<section id="portfolio" class="mb-[300px] mt-10 scroll-mt-28">
+		<section id="portfolio" class="mb-5 mt-10 scroll-mt-28">
 			<h2 class="text-xl mb-10">{t("home.portfolio")}</h2>
-			<div class="flex gap-y-56 gap-x-40 flex-wrap justify-center">
+			<div class="pb-72  grid snap-x scroll-px-5 overflow-x-scroll overflow-y-clip grid-flow-col  gap-5 ">
 				{projects.map((project) => (
 					<Card
 						title={project.title}
