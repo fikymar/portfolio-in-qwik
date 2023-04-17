@@ -19,17 +19,7 @@ export const projects = [
 		descCZ: "Eshop s chytrými kolébkami",
 		descEN: "Eshop with smart cradles",
 	},
-	{
-		title: "portfolio",
-		link: "https://fikymar.netlify.app/",
-		code: "https://github.com/fikymar/portfolio-in-qwik",
-		img: "/imgs/portfolio1.webp",
-		desc: "portfolioDesc",
-		techs: ["Qwik", "Typescript", "Qwik Speak"],
-		img2: "/imgs/portfolio2.webp",
-		descCZ: "Jednoduché portfolio v Qwik",
-		descEN: "Simple portfolio in Qwik",
-	},
+
 	{
 		title: "Shopiik",
 		link: "https://shopiik.netlify.app/",
@@ -60,6 +50,17 @@ export const projects = [
 		descCZ: "CRUD cvičná aplikace ve Vue",
 		descEN: "CRUD training project in Vue",
 		techs: ["Vue", "Vue router", "Pinia", "Tailwind"],
+	},
+	{
+		title: "portfolio",
+		link: "https://fikymar.netlify.app/",
+		code: "https://github.com/fikymar/portfolio-in-qwik",
+		img: "/imgs/portfolio1.webp",
+		desc: "portfolioDesc",
+		techs: ["Qwik", "Typescript", "Qwik Speak"],
+		img2: "/imgs/portfolio2.webp",
+		descCZ: "Jednoduché portfolio v Qwik",
+		descEN: "Simple portfolio in Qwik",
 	},
 	// {
 	// 	title: "Visap",
@@ -119,7 +120,7 @@ export const Portfolio = component$(() => {
 	return (
 		<section id="portfolio" class="mb-5 mt-10 scroll-mt-28">
 			<h2 class="text-xl mb-10">{t("home.portfolio")}</h2>
-			<div class="pb-72  grid snap-x scroll-px-5 overflow-x-scroll overflow-y-clip grid-flow-col gap-5 scrollbar ">
+			<div class="pb-[19rem] grid snap-x scroll-px-5 overflow-x-scroll overflow-y-clip grid-flow-col gap-5 scrollbar ">
 				{projects.map((project) => (
 					<Card
 						title={project.title}

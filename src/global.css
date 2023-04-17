@@ -19,6 +19,7 @@
 	--amber-300: #fcd34d;
 	--text: #fffbeb;
 	--bg-zinc-100: #f4f4f4;
+	--red: #e8464e;
 }
 
 body {
@@ -40,13 +41,12 @@ h4 {
 
 .headerLink {
 	--s: 1px; /* the thickness of the line */
-	--c: #e8464e; /* the color */
 
 	color: #0000;
 	padding-bottom: var(--s);
-	background: linear-gradient(90deg, var(--c) 50%, #000 0)
+	background: linear-gradient(90deg, var(--red) 50%, #000 0)
 			calc(100% - var(--_p, 0%)) / 200% 100%,
-		linear-gradient(var(--c) 0 0) 0% 100% / var(--_p, 0%) var(--s) no-repeat;
+		linear-gradient(var(--red) 0 0) 0% 100% / var(--_p, 0%) var(--s) no-repeat;
 	-webkit-background-clip: text, padding-box;
 	background-clip: text, padding-box;
 	transition: 1s;
@@ -99,7 +99,6 @@ a.mindblow:hover {
 }
 
 .cursor {
-	/* background-color: #e8464e; */
 	background-color: #fefefe;
 	width: 2rem;
 	height: 2rem;
@@ -139,20 +138,18 @@ a.mindblow:hover {
 }
 
 .scrollbar {
-	-ms-overflow-style: auto;
-	scrollbar-color: #713fc2;
+	scrollbar-color: var(--zinc-700);
 }
 
 ::-webkit-scrollbar {
-	width: 10px;
+	height: 12px;
 }
 
 ::-webkit-scrollbar-thumb {
-	background-color: black;
-	border-radius: 10px;
+	background-color: var(--zinc-700);
+	border-radius: 8px;
 }
 
 ::-webkit-scrollbar-track {
-	box-shadow: inset 0 0 5px grey;
-	border-radius: 10px;
+	border-radius: 8px;
 }
