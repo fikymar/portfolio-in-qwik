@@ -120,7 +120,7 @@ export const Portfolio = component$(() => {
 	return (
 		<section id="portfolio" class="mb-5 mt-10 scroll-mt-28">
 			<h2 class="text-xl mb-10">{t("home.portfolio")}</h2>
-			<div class="pb-[19rem] grid snap-x scroll-px-5 overflow-x-scroll overflow-y-clip grid-flow-col gap-5 scrollbar ">
+			<div class="pb-[19rem] grid snap-x scroll-px-5 overflow-x-scroll overflow-y-clip grid-flow-col gap-5 scrollbar md:mr-8 ">
 				{projects.map((project) => (
 					<Card
 						title={project.title}
