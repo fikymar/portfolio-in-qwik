@@ -5,6 +5,7 @@ export const logos = [
 	{ src: "imgs/logos/html.svg", title: "HTML" },
 	{ src: "imgs/logos/css.svg", title: "CSS" },
 	{ src: "imgs/logos/js.svg", title: "JavaScript" },
+	{ src: "imgs/logos/ts.svg", title: "TypeScript" },
 	{ src: "imgs/logos/react.svg", title: "React js" },
 	{ src: "imgs/logos/next.svg", title: "Next js" },
 	{ src: "imgs/logos/tailwind.svg", title: "Tailwind" },
@@ -64,7 +65,7 @@ export const About = component$(() => {
 			</div>
 			<img
 				src="/imgs/ai2.webp"
-				class="fixed left-0 bottom-0 w-20 md:w-40  transition-all z-[60]"
+				class="fixed left-0 bottom-0 w-20 md:w-40 transition-all z-[60]"
 			/>
 		</section>
 	);
