@@ -31,9 +31,11 @@ export const About = component$(() => {
 			id="about"
 			class="mt-28 scroll-mt-28 flex flex-col items-center gap-20 justify-center text-center"
 		>
-			<h1 class="text-3xl font-medium">Marcela Fikrlová</h1>
-			<p class="text-base font-light">{t("home.aboutDesc")}</p>
-			<p class="font-light">{t("home.tools")}</p>
+			<div>
+				<h1 class="text-3xl md:text-5xl font-medium">Marcela Fikrlová</h1>
+				<p class="text-base font-light">{t("home.aboutDesc")}</p>
+			</div>
+			<p class="font-medium">{t("home.tools")}</p>
 			<div class="flex gap-3 flex-wrap justify-center ">
 				{logos.map(({ src, title }) => (
 					<div class="group max-w-[3rem] " key={title}>
@@ -48,7 +50,7 @@ export const About = component$(() => {
 					</div>
 				))}
 			</div>
-			<p class="font-light">{t("home.toolsTried")}</p>
+			<p class="font-medium">{t("home.toolsTried")}</p>
 			<div class="flex gap-3 flex-wrap justify-center">
 				{triedLogos.map(({ src, title }) => (
 					<div class="group max-w-[3rem] h-auto" key={title}>

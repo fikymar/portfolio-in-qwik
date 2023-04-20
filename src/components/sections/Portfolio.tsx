@@ -62,22 +62,16 @@ export const projects = [
 		descCZ: "Jednoduché portfolio v Qwik",
 		descEN: "Simple portfolio in Qwik",
 	},
-	// {
-	// 	title: "Visap",
-	// 	link: "https://www.visap.cz/",
-	// 	img: "/imgs/visap1.png",
-	// 	img2: "/imgs/visap2.png",
-	// 	desc: "visapDesc",
-	// 	techs: ["JQuery", "HTML", "CSS"],
-	// },
-	// {
-	// 	title: "Forest.io",
-	// 	link: "https://forestio1.netlify.app/",
-	// 	img: "/imgs/forestio1.png",
-	// 	img2: "/imgs/forestio2.png",
-	// 	desc: "forestioDesc",
-	// 	techs: ["Next", "Tailwind", "Typescript"],
-	// },
+	{
+		title: "Visap",
+		link: "https://www.visap.cz/",
+		img: "/imgs/visap.jpg",
+		img2: "/imgs/visap2.jpg",
+		desc: "visapDesc",
+		techs: ["JQuery", "HTML", "CSS"],
+		descCZ: "Prezentační web na šabloně",
+		descEN: "Presentational web on a template",
+	},
 	{
 		title: "Chytrá nemovitost",
 		link: "https://chytranemovitost.cz/",
@@ -111,15 +105,15 @@ export const projects = [
 			"Next-translate",
 			"Stripe",
 		],
-		descCZ: "Tržiště s živými jazykovými kurzy",
-		descEN: "Marketplace with language courses",
+		descCZ: "Tržiště s živými jazykovými kurzy(stage)",
+		descEN: "Marketplace with language courses(stage)",
 	},
 ];
 
 export const Portfolio = component$(() => {
 	return (
 		<section id="portfolio" class="mb-5 mt-10 scroll-mt-28">
-			<h2 class="text-xl mb-10">{t("home.portfolio")}</h2>
+			<h2 class="arrow text-xl mb-10">{t("home.portfolio")}</h2>
 			<div class="pb-[19rem] grid snap-x scroll-px-5 overflow-x-scroll overflow-y-clip grid-flow-col gap-5 scrollbar md:mr-8 ">
 				{projects.map((project) => (
 					<Card

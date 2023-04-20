@@ -20,8 +20,8 @@ export const Header = component$(() => {
 	];
 	return (
 		<header
-			class={`py-4 px-4 z-50 fixed top-0 left-0 w-full transition duration-500 backdrop-blur border-b flex items-center  ${
-				store.scrolled ? " border-b-black " : "border-b-transparent"
+			class={`py-4 px-4 z-50 fixed top-0 left-0 w-full transition-all duration-300 backdrop-blur border-b flex items-center  ${
+				store.scrolled ? " border-b-black py-2 " : "border-b-transparent"
 			}`}
 			document:onScroll$={() => {
 				if (window.scrollY > 0) {
@@ -33,7 +33,7 @@ export const Header = component$(() => {
 		>
 			<div class="logo"></div>
 			<ChangeLocale />
-			<ul class="uppercase font-sans">
+			<ul class="uppercase font-sans font-medium">
 				{menuLinks.map((link) => (
 					<li class="mr-4 pb-1 group">
 						<a

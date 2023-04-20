@@ -60,14 +60,34 @@ section {
 	scroll-margin-top: 80px;
 }
 
-h2:before {
-	content: "->";
+.arrow:before {
+	content: "→";
 	position: absolute;
 	top: -1em;
 	font-family: "Over the Rainbow", cursive;
+	left: 0;
+	animation: animate 2s ease-in-out 2s 3;
+	transition: all 0.3s ease-in-out;
+}
+.arrow:hover:before {
+	content: "⇝";
+	color: var(--red);
 }
 
-h2 {
+@keyframes animate {
+	0% {
+		transform: translateX(0px);
+	}
+	50% {
+		transform: translateX(2px);
+		content: "⇝";
+	}
+	100% {
+		transform: translateX(0px);
+	}
+}
+
+.arrow {
 	position: relative;
 }
 
