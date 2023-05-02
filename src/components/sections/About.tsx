@@ -8,6 +8,7 @@ export const logos = [
 	{ src: "imgs/logos/ts.svg", title: "TypeScript" },
 	{ src: "imgs/logos/react.svg", title: "React js" },
 	{ src: "imgs/logos/next.svg", title: "Next js" },
+
 	{ src: "imgs/logos/tailwind.svg", title: "Tailwind" },
 	{ src: "imgs/logos/styledcomponents.svg", title: "Styled Components" },
 	{ src: "imgs/logos/sass.svg", title: "SCSS" },
@@ -18,6 +19,7 @@ export const logos = [
 ];
 
 export const triedLogos = [
+	{ src: "imgs/logos/reduxIcon.svg", title: "Redux toolkit" },
 	{ src: "imgs/logos/php.svg", title: "PHP" },
 	{ src: "imgs/logos/laravel.svg", title: "Laravel" },
 	{ src: "imgs/logos/vue.svg", title: "Vue" },
