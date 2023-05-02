@@ -26,9 +26,10 @@ export default component$(() => {
 					<meta charSet="utf-8" />
 					<title>FikyMar | Portfolio</title>
 					<RouterHead />
-					<meta name="og:title" content="Marcela Fikrlová" />
-					<meta name="og:description" content="Frontend developer" />
+					<meta property="og:title" content="Marcela Fikrlová" />
+					<meta property="og:description" content="Frontend developer" />
 					<meta property="og:image" content="/og.jpg" />
+					<meta property="og:url" content="https://fikymar.netlify.app/" />
 					<link rel="manifest" href="/manifest.json" />
 					<link rel="preconnect" href="https://fonts.googleapis.com" />
 					<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
