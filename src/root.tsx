@@ -28,7 +28,10 @@ export default component$(() => {
 					<RouterHead />
 					<meta property="og:title" content="Marcela Fikrlová" />
 					<meta property="og:description" content="Frontend developer" />
-					<meta property="og:image" content="/og.jpg" />
+					<meta
+						property="og:image"
+						content="https://fikymar.netlify.app/og.jpg"
+					/>
 					<meta property="og:url" content="https://fikymar.netlify.app/" />
 					<link rel="manifest" href="/manifest.json" />
 					<link rel="preconnect" href="https://fonts.googleapis.com" />
