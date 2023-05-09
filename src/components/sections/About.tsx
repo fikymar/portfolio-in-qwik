@@ -25,6 +25,8 @@ export const triedLogos = [
 	{ src: "imgs/logos/vue.svg", title: "Vue" },
 	{ src: "imgs/logos/xd.svg", title: "Xd" },
 	{ src: "/favicon.svg", title: "Qwik" },
+	{ src: "imgs/logos/gulp.svg", title: "Gulp" },
+	{ src: "imgs/logos/wp.png", title: "WordPress" },
 ];
 
 export const About = component$(() => {
@@ -40,7 +42,7 @@ export const About = component$(() => {
 			<p class="font-medium">{t("home.tools")}</p>
 			<div class="flex gap-3 flex-wrap justify-center ">
 				{logos.map(({ src, title }) => (
-					<div class="group max-w-[3rem] " key={title}>
+					<div class="group max-w-[3rem]" key={title}>
 						<img
 							src={src}
 							alt={title}
@@ -55,7 +57,7 @@ export const About = component$(() => {
 			<p class="font-medium">{t("home.toolsTried")}</p>
 			<div class="flex gap-3 flex-wrap justify-center">
 				{triedLogos.map(({ src, title }) => (
-					<div class="group max-w-[3rem] h-auto" key={title}>
+					<div class="group max-w-[3rem]    h-auto" key={title}>
 						<img
 							src={src}
 							alt={title}
