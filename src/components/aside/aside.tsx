@@ -29,11 +29,18 @@ export const Side = component$(() => {
 					class="w-8 h-8 blackBlob group-hover:scale-110 "
 				/>
 			</a>
-			<a href="tel:+420739567245">
+				<a href="tel:+420739567245">
 				<img
 					src="/imgs/svg/phoneIcon.svg"
-					alt="github"
-					class="w-8 h-8 blackBlob group-hover:scale-110 "
+					alt="phone"
+					class="w-8 h-8 blackBlob"
+				/>
+			</a>
+			<a href="https://fikymar.itch.io/" target="_blank">
+				<img
+					src="/imgs/svg/itchIcon.svg"
+					alt="itchio"
+					class="w-8 h-8 blackBlob"
 				/>
 			</a>
 		</aside>

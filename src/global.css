@@ -15,7 +15,7 @@
 	--qwik-light-blue: #18b6f6;
 	--qwik-light-purple: #ac7ff4;
 	--qwik-dark-purple: #713fc2;
-	--zinc-700: #3f3f46;
+	--zinc-700: rgba(63, 63, 70, 0.3);
 	--amber-300: #fcd34d;
 	--text: #fffbeb;
 	--bg-zinc-100: #f4f4f4;
@@ -139,8 +139,10 @@ a.mindblow:hover {
 	}
 }
 
+
 .blackBlob {
 	border-radius: 50%;
+	transition:all 0.3s ease-in-out
 }
 
 .blackBlob:hover {

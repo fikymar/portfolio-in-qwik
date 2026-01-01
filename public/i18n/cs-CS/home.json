@@ -2,15 +2,9 @@
 	"home": {
 		"about": "O mně",
 		"portfolio": "Projekty",
-		"aboutDesc": "Frontend Developer Junior",
-		"tools": "S tímto arzenálem pracuji",
-		"toolsTried": "Setkala jsem se z rychlíku i s těmito nástroji",
-		"loonoyDesc": "Eshop s chytrými kolébkami",
-		"zacniucitDesc": "Web s rozcestníkem pro začínající učitele",
-		"portfolioDesc": "Jednoduché portfolio v Qwik",
-		"shopiikDesc": "Cvičný eshop",
-		"chytraDesc": "Investice do nemovitostí",
-		"studywiseDesc": "Tržiště s živými jazykovými kurzy",
-		"blogDesc": "CRUD cvičná aplikace ve Vue"
+		"aboutDesc": "Frontend Developer, UX Designer, Junior Game Developer",
+		"tools": "S tímto arzenálem běžně pracuji",
+		"toolsTried": "Setkala jsem se i s těmito nástroji"
+		
 	}
 }

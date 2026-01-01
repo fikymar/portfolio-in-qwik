@@ -23,12 +23,14 @@ export const Card = component$((props: IProject) => {
 					<img
 						src={img}
 						alt={title}
-						class="w-full h-full object-cover object-center rounded-lg shadow-md"
+						draggable={false}
+						class="select-none w-full h-full object-cover object-center rounded-lg shadow-md"
 					/>
 					<img
 						src={img2}
 						alt={title}
-						class="absolute top-0 w-full h-full object-cover object-center rounded-lg shadow-md opacity-0 group-hover:opacity-100 transition duration-500"
+						draggable={false}
+						class="select-none absolute top-0 w-full h-full object-cover object-center rounded-lg shadow-md opacity-0 group-hover:opacity-100 transition duration-500"
 					/>
 				</div>
 				<div class="relative px-4 -mt-16">
@@ -71,8 +73,8 @@ export const Card = component$((props: IProject) => {
 						</div>
 
 						<ul class="list-none list-inside my-2 flex-wrap gap-2 hidden group-hover:flex font-sans">
-							{props.techs.map((tech) => (
-								<li class="">{tech} |</li>
+							{props.techs.map((tech, i) => (
+								<li class="-mr-1">{tech}	{i < props.techs.length - 1 ? <span class="text-redLink"> | </span> : null}</li>
 							))}
 						</ul>
 					</div>
